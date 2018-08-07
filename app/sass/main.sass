@@ -170,10 +170,10 @@ main
 			margin: 0 -5px
 
 		.form-row
-			width: 17%
+			width: 25%
 			padding: 0 5px
 		.order-1
-			width: 33.5%
+			//width: 33.5%
 
 
 		.form-control
@@ -196,23 +196,9 @@ main
 				text-decoration: none
 				color: #111
 		.wrap-btn
-			width: 15.5%
+			width: 25%
 		.wrap-btn
 			position: relative
-			&:after
-				content: ''
-				position: absolute
-				border: none
-				outline: 0
-				top: 50%
-				left: 13%
-				width: 11px
-				height: 11px
-				border-left: 2px solid black
-				border-top: 2px solid black
-				//z-index: 99999
-				transform: translateY(-50%) rotate(-45deg)
-				z-index: 99999
 
 		.btn
 			//background: #1aeef1
@@ -471,7 +457,7 @@ main
 //======================= slic options ====================================
 
 .slick-slider
-	direction: rtl
+	//direction: rtl
 	position: relative
 	display: block
 	box-sizing: border-box
@@ -534,22 +520,6 @@ main
 
 
 	.slick-next
-		left: 0
-		&:after
-			content: ''
-			position: absolute
-			border: none
-			outline: 0
-			top: 50%
-			left: 50%
-			width: 18px
-			height: 18px
-			border-left: 3px solid white
-			border-top: 3px solid white
-			//z-index: 99999
-			transform: translateY(-50%) translateX(-50%) rotate(-45deg)
-			z-index: 99999
-	.slick-prev
 		right: 0
 		&:after
 			content: ''
@@ -564,6 +534,22 @@ main
 			border-top: 3px solid white
 			//z-index: 99999
 			transform: translateY(-50%) translateX(-50%) rotate(130deg)
+			z-index: 99999
+	.slick-prev
+		left: 0
+		&:after
+			content: ''
+			position: absolute
+			border: none
+			outline: 0
+			top: 50%
+			left: 50%
+			width: 18px
+			height: 18px
+			border-left: 3px solid white
+			border-top: 3px solid white
+			//z-index: 99999
+			transform: translateY(-50%) translateX(-50%) rotate(-45deg)
 			z-index: 99999
 
 	.slick-arrow.slick-hidden
@@ -603,6 +589,42 @@ footer
 
 
 
+.label
+	z-index: 50
+	position: absolute
+	padding: 15px 15px
+	left: -30px
+	top: 50px
+	color: black
+	text-transform: uppercase
+	font-size: 10px
+	transform: rotate(-90deg)
+	&:after
+		content: ''
+		position: absolute
+		right: 109px
+		top: 48%
+		transform: translateY(-50%)
+		width: 5px
+		height: 5px
+		background: #ee2b74
+		border-radius: 50%
+
+
+.tnx-page
+	height: 100vh
+	min-height: auto
+	h2
+		font-family: "OpenSansHebrew-Bold_0"
+		font-size: 55px
+		line-height: 1.819
+		color: black
+	p
+		font-family: "OpenSansHebrew-Regular_0"
+		font-size: 35px
+		color: black
+		line-height: 1.819
+		display: block
 
 
 

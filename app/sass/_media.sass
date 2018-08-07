@@ -2,24 +2,224 @@
 
 /*==========  Desktop First  ==========*/
 
+
+@media only screen and (max-width : 1400px)
+    header
+      min-height: 1100px
+    main
+      .dance-styles-block
+        margin-bottom: 40px
+        .items
+          flex-wrap: wrap
+          .item
+            margin-bottom: 10px
+            width: 33.333%
+            .wrap-text
+              padding: 0 18px
+
+
+
+
+
 /* Large Devices, Wide Screens */
 @media only screen and (max-width : 1200px)
-	/**/
+    main
+      .form-hold
+        &:after, &:before
+          display: none
+    .htl-slider-section
+      .variable-width
+        .item
+          width: 515px
+          height: 340px
 
 
 /* Medium Devices, Desktops */
 @media only screen and (max-width : 992px)
-	/**/
+    header
+      min-height: 860px
+    main
+      background-image: none !important
+      padding-bottom: 0
+      .main-holder-form
+        max-width: 720px
+        margin: 0 auto 40px
+        .logotips
+          margin-top: 40px
+          .items
+            display: flex
+            justify-content: center
+            align-items: center
+            margin: 0 -10px
+            .item
+              list-style: none
+              padding: 0 10px
+              span
+                font-family: "OpenSansHebrew-Bold_0"
+                font-size: 15.77px
+                color: #1e1e1e
+                line-height: 1.2
 
+      .form-hold
+        .form-row
+          margin: 0 auto 10px
+          width: 100%
+        h3
+          font-size: 18px
+        .form-control
+          font-size: 16px
+        .btn
+          font-size: 18px
+          &:hover
+            font-size: 20px
+        .text-under-form
+          font-size: 16px
+          margin-top: 5px
+      .custom-select-wrapper
+        .custom-option
+          font-size: 16px
+      .main-holder
+        background: black
+      .our-teachers-block
+        .items
+          .item
+            .wrap-img
+              max-width: 130px
+            p
+              font-size: 16px
+      .our-teachers-block
+        padding-bottom: 60px
+    .label
+      top: 500px
+      left: -50px
 
 /* Small Devices, Tablets */
 @media only screen and (max-width : 768px)
-	/**/
+    main
+      .description-block
+        .text-block
+          padding-left: 0
+      .our-teachers-block
+        .items
+          flex-wrap: wrap
+          .item
+            margin-bottom: 20px
+    .htl-slider-section
+      .variable-width
+        .item
+          width: 455px
+          height: 300px
+    footer
+      .wrap-footer
+        flex-wrap: wrap
+        justify-content: center
+        .right-block
+          order: 2
+          h3
+            font-size: 18px
+          p
+            font-size: 15px
+        .text-block
+          text-align: center
+          margin-top: 20px
+      .left-block
+        .wrap-img
+          max-width: 200px
+
+
+
+
+@media only screen and (max-width : 640px)
+    main
+      .dance-styles-block
+        .items
+          justify-content: center
+
+@media only screen and (max-width : 600px)
+    header
+      .wrap-img
+        margin: 25px auto 0
+        max-width: 190px
+    main
+      .logos-block
+        justify-content: center
+        .logo-right
+          .wrap-img
+            max-width: 190px
+      .description-block
+        flex-wrap: wrap
+        margin-bottom: 40px
+        .text-block
+          width: 100%
+          //order: 2
+          p
+            font-size: 15px
+        .img-block
+          width: 100%
+          padding-right: 0
+          display: flex
+          justify-content: center
+          margin-top: 40px
+
 
 
 /* Extra Small Devices, Phones */
 @media only screen and (max-width : 480px)
-	/**/
+    header
+      background-position: right
+    main
+      .form-hold
+        h3
+          font-size: 16px
+        .text-under-form
+          font-size: 13px
+      .dance-styles-block
+        .items
+          .item
+            width: 100%
+            .wrap-text
+              height: 50px
+        h3
+          font-size: 20px
+      .our-teachers-block
+        padding-bottom: 40px
+        h3
+          font-size: 20px
+        .items
+          margin: 0 -5px
+          justify-content: center
+          .item
+            padding: 0 5px
+            .wrap-img
+              max-width: 150px
+    .htl-slider-section
+      .variable-width
+        .item
+          width: 380px
+          height: 250px
+    .slick-slider
+      .slick-arrow
+        width: 40px
+        height: 80px
+      .slick-prev
+        &:after
+          width: 15px
+          height: 15px
+      .slick-next
+        &:after
+          width: 15px
+          height: 15px
+    footer
+      padding: 30px 20px 20px
+      .left-block
+        .wrap-img
+          max-width: 160px
+      .wrap-footer
+        .right-block
+          p
+            font-size: 14px
+
+
 
 
 /* Custom, iPhone Retina */

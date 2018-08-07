@@ -5,7 +5,7 @@ $(function() {
         $('.variable-width').slick({
             dots: false,
             infinite: true,
-            rtl: true,
+            // rtl: true,
             speed: 300,
             slidesToShow: 3,
             slidesToScroll: 1,
