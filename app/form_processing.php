@@ -55,7 +55,7 @@ $bom = "\xEF\xBB\xBF";
 
 
 //$redirectToTnxPage = 'http://campaign.gofmans.co.il/nadine-bomer-dance-academy/thanks-page.html?Lead=true';
-$redirectToTnxPage = $_SERVER['SERVER_NAME'].'/thanks-page.html?Lead=true';
+$redirectToTnxPage = '/thanks-page.html?Lead=true';
 //$redirectToTnxPage = 'http://ketzevhagoof.co.il/thanks-page.html?Lead=true';
 //$redirectToTnxPage = 'http://192.168.89.147/thanks-page.html?Lead=true';
 // redirect
