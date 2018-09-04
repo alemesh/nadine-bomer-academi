@@ -4,7 +4,7 @@
 $senderName = 'nadine-bomer-dance-academy';
 $senderEmail = $_SERVER['SERVER_NAME'];
 $targetEmail = [];
-$targetEmail = ['office@gofmans.co.il', 'ravit@gofmans.co.il', 'eli@gofmans.co.il','bommer@netvision.net.il', 'yeminz91@gmail.com'];
+$targetEmail = ['office@gofmans.co.il', 'ravit@gofmans.co.il', 'eli@gofmans.co.il','bommer@netvision.net.il', 'yeminz91@gmail.com', 'israel@gofmans.co.il'];
 //$targetEmail = ['alemesh@acceptic.com'];
 $messageSubject = 'Message from web-site - '. $_SERVER['SERVER_NAME'];
 $redirectToReferer = true;
